@@ -1,37 +1,50 @@
-# Important
+# Inventory Management System
 
-Issues of this repository are tracked on https://github.com/aspnetboilerplate/aspnetboilerplate. Please create your issues on https://github.com/aspnetboilerplate/aspnetboilerplate/issues.
+This Inventory Management System is a web-based application designed to efficiently manage and monitor stock levels in various categories. The system allows users to enter, update, and view stock information, along with generating detailed reports on stock categories and types.
 
-# Introduction
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-This is a template to create **ASP.NET Core MVC / Angular** based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents). It has 2 different versions:
+## Features
 
-1. [ASP.NET Core MVC & jQuery](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core) (server rendered multi-page application).
-2. [ASP.NET Core & Angular](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular) (single page application).
- 
-User Interface is based on [AdminLTE theme](https://github.com/ColorlibHQ/AdminLTE).
- 
-# Download
+- **Stock Management**: 
+  - Add new stock items.
+  - Update existing stock items.
+  - View stock levels by category.
+  - Manage stock categories and types.
 
-Create & download your project from https://aspnetboilerplate.com/Templates
+- **Reports**:
+  - Generate and view reports on stock categories and types.
+  - Export reports for analysis.
 
-# Screenshots
+- **User Interface**:
+  - Intuitive and user-friendly interface built with Angular.
+  - Responsive design for seamless use across devices.
 
-#### Sample Dashboard Page
-![](_screenshots/module-zero-core-template-ui-home.png)
+## Tech Stack
 
-#### User Creation Modal
-![](_screenshots/module-zero-core-template-ui-user-create-modal.png)
+- **Backend**: .NET Core
+- **Frontend**: Angular
+- **Database**: SQL Server
+- **Languages**: C#, TypeScript, HTML, CSS
 
-#### Login Page
+## Installation
 
-![](_screenshots/module-zero-core-template-ui-login.png)
+### Prerequisites
 
-# Documentation
+- [.NET Core SDK](https://dotnet.microsoft.com/download)
+- [Node.js and npm](https://nodejs.org/)
+- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
-* [ASP.NET Core MVC & jQuery version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core)
-* [ASP.NET Core & Angular  version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
+### Steps
 
-# License
-
-[MIT](LICENSE).
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/inventory-management-system.git
+   cd inventory-management-system
